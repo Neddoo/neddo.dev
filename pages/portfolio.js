@@ -18,7 +18,7 @@ export default function Home() {
           <a class="w-20 h-20 object-cover rounded-full"/>
           </div>
           <div>
-            <h2 class="text-gray-800 text-3xl font-semibold">Personal Website</h2>
+            <h2 class="text-gray-800 text-3xl font-semibold">Personal Website 👨🏼‍💻</h2>
             <p class="mt-2 text-gray-600">Personal website. Made with Next.JS</p>
           </div>
           <div class="flex justify-end mt-4">
