@@ -19,10 +19,10 @@ img {
   .text-6xl { font-size: 3rem; }
 }
 @media screen and (max-width: 425px) {
-  .text-6xl { font-size: 2.5rem; }
+  .text-6xl { font-size: 2rem; }
 }
 @media screen and (max-width: 320px) {
-  .text-6xl { font-size: 1.5rem; }
+  .text-6xl { font-size: 1rem; }
 }
 
 .center-index {
