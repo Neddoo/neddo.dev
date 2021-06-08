@@ -13,16 +13,16 @@ img {
     transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 1024px) {
-  .text-6xl .text-5xl { font-size: 3.5rem; }
+  .text-6xl { font-size: 3.5rem; }
 }
 @media screen and (max-width: 768px) {
-  .text-6xl .text-5xl { font-size: 3rem; }
+  .text-6xl { font-size: 3rem; }
 }
 @media screen and (max-width: 425px) {
-  .text-6xl .text-5xl { font-size: 2rem; }
+  .text-6xl { font-size: 2rem; }
 }
 @media screen and (max-width: 320px) {
-  .text-6xl .text-5xl { font-size: 1rem; }
+  .text-6xl { font-size: 1rem; }
 }
 
 .center-index {

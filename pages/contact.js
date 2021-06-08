@@ -13,11 +13,11 @@ export default function Home() {
         <meta content="#10B981" data-react-helmet="true" name="theme-color"/>
         <title>Neddo</title>
       </Head>
-      <a href="https://twitter.com/ItsNeddo" target="_blank" class="fadeIn text-5xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://twitter.com/ItsNeddo" target="_blank" class="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fab fa-twitter"></i> Twitter</a>
       <br></br><br></br><br></br>
-      <a href="https://github.com/Neddoo" target="_blank" class="fadeIn text-5xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://github.com/Neddoo" target="_blank" class="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fab fa-github"></i> GitHub</a>
       <br></br><br></br><br></br>
-      <a href="mailto:me@neddo.dev" target="_blank" class="fadeIn text-5xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fas fa-envelope-square"></i> Email</a>
+      <a href="mailto:me@neddo.dev" target="_blank" class="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i class="fas fa-envelope-square"></i> Email</a>
     </div>
   )
 }
