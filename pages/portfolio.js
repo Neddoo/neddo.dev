@@ -22,7 +22,7 @@ export default function Home() {
             <p class="mt-2 text-gray-600">Personal website. Made with Next.JS</p>
           </div>
           <div class="flex justify-end mt-4">
-            <a target="_blank" href="https://github.com/Neddoo/private-site" class="text-xl font-medium underline text-black">GitHub Repository</a>
+            <a target="_blank" href="https://github.com/Neddoo/neddo-codes" class="text-xl font-medium underline text-black">GitHub Repository</a>
           </div>
         </div>  
       {/*</div>*/}
