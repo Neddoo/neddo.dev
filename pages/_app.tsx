@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <script async src="https://cdn.splitbee.io/sb.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="https://i.imgur.com/nhM2zxl.png"></link>
       </Head>
     <nav className="flex items-center justify-between flex-wrap p-6">
         <div className="flex items-center flex-no-shrink text-white mr-6">
