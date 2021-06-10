@@ -7,7 +7,7 @@ export default function Home() {
         <meta content="Neddo" property="og:title"/>
         <meta property="og:type" content="website"/>
         <meta content="Hi! I'm Sven! Software Developer" property="og:description"/>
-        <meta content="https://neddo.codes" property="og:url"/>
+        <meta content="https://neddo.dev" property="og:url"/>
         <meta content='https://i.imgur.com/nhM2zxl.png' property='og:image'></meta>
         <meta content="#10B981" data-react-helmet="true" name="theme-color"/>
         <title>Neddo</title>
@@ -22,7 +22,7 @@ export default function Home() {
             <p className="mt-2 text-gray-600">Personal website. Made with Next.JS. Styled with TailwindCSS. Deployed using Vercel. <br></br><br></br></p>
           </div>
           <div className="flex justify-end mt-4">
-            <a target="_blank" href="https://github.com/Neddoo/neddo.codes" className="text-xl font-medium underline text-black">GitHub Repository</a>
+            <a target="_blank" href="https://github.com/Neddoo/neddo.dev" className="text-xl font-medium underline text-black">GitHub Repository</a>
           </div>
         </div>  
       {/*</div>*/}

@@ -8,7 +8,7 @@ export default function Home() {
         <meta content="Neddo" property="og:title"/>
         <meta property="og:type" content="website"/>
         <meta content="Hi! I'm Sven! Software Developer" property="og:description"/>
-        <meta content="https://neddo.codes" property="og:url"/>
+        <meta content="https://neddo.dev" property="og:url"/>
         <meta content='https://i.imgur.com/nhM2zxl.png' property='og:image'></meta>
         <meta content="#10B981" data-react-helmet="true" name="theme-color"/>
         <title>Neddo</title>
