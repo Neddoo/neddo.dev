@@ -17,10 +17,10 @@ function MyApp({ Component, pageProps }) {
         <a href="/" className="text-xl text-center flex-start font-bold text-white py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:-translate-y-1 hover:scale-110">
           HOME
         </a>
-        <a href="/portfolio" className="text-xl text-center font-bold flex-start text-white py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:-translate-y-1 hover:scale-110">
+        <a href="/portfolio.html" className="text-xl text-center font-bold flex-start text-white py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:-translate-y-1 hover:scale-110">
           PORTFOLIO
         </a>
-        <a href="/contact" className="text-xl text-center font-bold flex-start text-white py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:-translate-y-1 hover:scale-110">
+        <a href="/contact.html" className="text-xl text-center font-bold flex-start text-white py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:-translate-y-1 hover:scale-110">
           CONTACT
         </a>
       </div>
