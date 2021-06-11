@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div>
             <h2 className="text-gray-800 text-3xl font-semibold">Personal Website 👨🏼‍💻</h2>
-            <p className="mt-2 text-gray-600">Personal website. Made with Next.JS. Styled with TailwindCSS. Deployed using Vercel. <br></br><br></br></p>
+            <p className="mt-2 text-gray-600">Personal website. Made with Next.JS. Styled with TailwindCSS. Deployed using DigitalOcean's App Platform. <br></br><br></br></p>
           </div>
           <div className="flex justify-end mt-4">
             <a target="_blank" href="https://github.com/Neddoo/neddo.dev" className="text-xl font-medium underline text-black">GitHub Repository</a>
