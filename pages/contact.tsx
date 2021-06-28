@@ -18,6 +18,8 @@ export default function Home() {
       <a href="https://github.com/Neddoo" target="_blank" className="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i className="fab fa-github"></i> GitHub</a>
       <br></br><br></br><br></br>
       <a href="mailto:me@neddo.dev" target="_blank" className="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i className="fas fa-envelope-square"></i> Email</a>
+      <br></br><br></br><br></br>
+      <a href="https://ko-fi.com/neddo" target="_blank" className="fadeIn text-6xl text-center flex-start text-white font-bold py-2 px-4 mt-10 transition duration-300 ease-in-out hover:bg-white hover:text-black transform hover:translate-y-1 hover:scale-110"><i className="fas fa-coffee"></i> Ko-Fi</a>
     </div>
   )
 }
