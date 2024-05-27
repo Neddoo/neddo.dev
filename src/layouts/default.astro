@@ -1,0 +1,115 @@
+---
+import "@fontsource/m-plus-rounded-1c/100.css";
+import "@fontsource/m-plus-rounded-1c/300.css";
+import "@fontsource/m-plus-rounded-1c/400.css";
+import "@fontsource/m-plus-rounded-1c/500.css";
+import "@fontsource/m-plus-rounded-1c/700.css";
+import "@fontsource/m-plus-rounded-1c/800.css";
+import "@fontsource/m-plus-rounded-1c/900.css";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <title>neddo.dev - {title}</title>
+    <meta name="url" content="https://neddo.dev/" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="stripe-container">
+        <div id="stripe-pattern"></div>
+      </div>
+      <div class="overlay gap-5 flex flex-col w-full">
+        <slot />
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  :root {
+    --glow-rgb: 245 245 245;
+
+    --primary-stripe-rgb: 30 30 30;
+    --secondary-stripe-rgb: 40 40 40;
+  }
+
+  body {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    min-height: 100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  @keyframes pan {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+
+  #app {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #stripe-container {
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    bottom: 0px;
+    translate: -50% 0%;
+    height: 100%;
+    min-height: 240px;
+    width: 100%;
+    min-width: 2000px;
+    background-color: rgb(var(--stripe-primary-rgb));
+  }
+
+  #stripe-pattern {
+    height: 100%;
+    width: 100%;
+    background-size: 18px 18px;
+    background-image: linear-gradient(
+      -45deg,
+      rgb(var(--primary-stripe-rgb)) 25%,
+      rgb(var(--secondary-stripe-rgb)) 25%,
+      rgb(var(--secondary-stripe-rgb)) 50%,
+      rgb(var(--primary-stripe-rgb)) 50%,
+      rgb(var(--primary-stripe-rgb)) 75%,
+      rgb(var(--secondary-stripe-rgb)) 75%,
+      rgb(var(--secondary-stripe-rgb)) 100%
+    );
+    box-shadow: inset 0rem 0.5rem 2rem 0.25rem rgb(0 0 0 / 40%);
+    animation: pan 360s linear infinite;
+  }
+
+  .overlay {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+  @media (max-height: 800px) {
+    .overlay {
+      height: 100vh;
+    }
+  }
+</style>

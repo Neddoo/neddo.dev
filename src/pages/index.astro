@@ -1,0 +1,52 @@
+---
+import Default from "../layouts/default.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Default title="home">
+  <div
+    class="p-16 rounded-xl sm:w-[60%] w-full drop-shadow-lg bg-neutral-900 border-neutral-800 border-2"
+  >
+    <div class="flex justify-between md:flex-row flex-col">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-bold">Hiya! I'm Sven</h1>
+        <p class="text-neutral-500 mt-2">Full-Stack Developer</p>
+      </div>
+      <div class="my-auto space-x-2 flex mt-5 md:mt-0">
+        <a
+          href="https://github.com/Neddoo"
+          class="group p-2 border-2 border-neutral-800 rounded-xl hover:border-neutral-700 hover:bg-neutral-800 duration-200"
+          target="_blank"
+          ><Icon
+            class="w-8 h-8 text-neutral-400 group-hover:text-white duration-200"
+            name="mdi:github"
+          /></a
+        >
+        <a
+          href="https://x.com/ItsNeddo"
+          class="group p-2 border-2 border-neutral-800 rounded-xl hover:border-neutral-700 hover:bg-neutral-800 duration-200"
+          target="_blank"
+          ><Icon
+            class="w-8 h-8 text-neutral-400 group-hover:text-white duration-200"
+            name="mdi:twitter"
+          /></a
+        >
+      </div>
+    </div>
+    <p class="mt-10">
+      I'm a Full-Stack Developer currently working full-time creating cool stuff
+      for some of the biggest audio brands.<br /><br />
+      I really enjoy creating awesome projects that look appealing and work great
+      on all platforms.
+    </p>
+  </div>
+  <!-- <div
+    class="p-16 rounded-xl sm:w-[60%] w-full drop-shadow-lg bg-neutral-900 border-neutral-800 border-2"
+  >
+    <div class="flex justify-between md:flex-row flex-col">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold">Recent Posts</h2>
+      </div>
+    </div>
+  </div> -->
+</Default>
