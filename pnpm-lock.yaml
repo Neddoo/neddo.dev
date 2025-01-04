@@ -20,9 +20,9 @@ importers:
       '@fontsource-variable/geist-mono':
         specifier: ^5.0.1
         version: 5.0.1
-      '@iconify-json/mdi':
+      '@iconify-json/lucide':
         specifier: ^1.1.66
-        version: 1.1.66
+        version: 1.2.20
       '@iconify-json/simple-icons':
         specifier: ^1.2.18
         version: 1.2.18
@@ -434,8 +434,8 @@ packages:
   '@fontsource-variable/geist@5.0.1':
     resolution: {integrity: sha512-TDSL3iy47DFGM8go1hejvloGaTFD7bxTjh9Oy9KXpC9z55eBcTueziPlyEqVVb9Sn1OkiW4lPgXQkc+BNOzFvA==}
 
-  '@iconify-json/mdi@1.1.66':
-    resolution: {integrity: sha512-7KPF2RVUUWav/hXCM8Ti/smqu3cmgePJpiX9CSkldiL+80+eBRBeKlc4vPOc9jhAItlqIU1vKsbKoPP0JIfgbg==}
+  '@iconify-json/lucide@1.2.20':
+    resolution: {integrity: sha512-m/8rqukvQfsE+MYTwNXCxP/K2iucTCGSQfS0XZhYpkZKGRdiEOdAAnd8Vv+E78xKK94Jza2eTc5ihxbw6+i7EQ==}
 
   '@iconify-json/simple-icons@1.2.18':
     resolution: {integrity: sha512-ae4ig7fxNXME1wl5og7Ocp82TM4jyz6IsOyI8GrteSbvHR9gaPu2Z01Amn5V/xo1Y7A7/+EH/3Ovpy2az/gYbg==}
@@ -2871,7 +2871,7 @@ snapshots:
 
   '@fontsource-variable/geist@5.0.1': {}
 
-  '@iconify-json/mdi@1.1.66':
+  '@iconify-json/lucide@1.2.20':
     dependencies:
       '@iconify/types': 2.0.0
 

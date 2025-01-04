@@ -1,31 +1,42 @@
 ---
 import Default from "../layouts/default.astro";
-import Socials from '../components/Socials.astro'
-import Tech from '../components/Tech.astro'
+import Socials from "../components/Socials.astro";
+import Tech from "../components/Tech.astro";
+import Projects from "../components/Projects.astro";
 ---
 
 <Default>
-  <div class="p-12 motion-opacity-in-0 motion-duration-[3s]">
+  <div class="p-6 lg:p-12 motion-opacity-in-0 motion-duration-[3s]">
     <div class="flex flex-col lg:flex-row justify-between">
-      <div class="gap-3 grid">
-        <h1 class="font-bold text-5xl my-auto">
-          <span class="text-green-200">Hi!</span> I'm Sven
-        </h1>
-      </div>
+      <h1 class="font-bold text-5xl my-auto">
+        <span class="text-green-200">Hi!</span> I'm Sven 👋
+      </h1>
       <div class="my-auto">
-        <div class="lg:space-x-2 flex mt-5 lg:mt-0 flex-col gap-3 lg:flex-row lg:gap-0">
+        <div
+          class="lg:space-x-2 flex mt-5 lg:mt-0 flex-col lg:flex-row lg:gap-0"
+        >
           <Socials />
         </div>
       </div>
     </div>
-    <hr class="border-neutral-800 my-12 border-2" />
-    <div class="gap-3 grid">
-      <p class="text-pretty text-lg text-neutral-400">I'm a full-stack developer working on websites for the most part. I'm currently working full-time managing the websites for the biggest audio brands (JBL, Harman/Kardon).<br /><br />I'm very passionate about new technologies and discovering new stuff. I also love OSS (legit who doesn't).</p>
+    <div class="gap-4 grid my-12">
+      <p class="text-pretty text-lg text-neutral-400">
+        I'm a full-stack developer working on websites for the most part. I'm
+        currently working full-time managing the websites for the biggest audio
+        brands (JBL, Harman/Kardon).<br /><br />I'm very passionate about new
+        technologies and discovering new stuff. I also love OSS (legit who
+        doesn't).
+      </p>
     </div>
-    <hr class="border-neutral-800 my-12 border-2" />
-    <div class="gap-3 grid">
-      <h2 class="text-3xl text-neutral-400 font-bold">Tech</h2>
+    <div class="gap-4 grid">
+      <h2 class="text-3xl font-bold">Tech</h2>
+      <hr class="border-neutral-800" />
       <Tech />
+    </div>
+    <div class="gap-4 grid mt-12">
+      <h2 class="text-3xl font-bold">Featured Projects</h2>
+      <hr class="border-neutral-800" />
+      <Projects />
     </div>
   </div>
 </Default>

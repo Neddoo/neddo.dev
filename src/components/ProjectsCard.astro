@@ -1,0 +1,18 @@
+---
+const { title, desc, link } = Astro.props;
+import { Icon } from "astro-icon/components";
+---
+
+<a
+  class="group p-3 border-2 my-auto border-neutral-800 rounded-[.75em] hover:border-neutral-700 hover:bg-neutral-800 duration-200 text-neutral-400 flex flex-col"
+  href={link}
+>
+  <div class="flex flex-row justify-between mb-3">
+    <h3 class="text-white font-bold text-xl">{title}</h3>
+    <Icon
+      class="w-4 h-4 group-hover:text-white duration-200"
+      name="lucide:external-link"
+    />
+  </div>
+  <p class="group-hover:text-white duration-200">{desc}</p>
+</a>

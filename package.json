@@ -14,7 +14,7 @@
     "@astrojs/tailwind": "^5.1.4",
     "@fontsource-variable/geist": "^5.0.1",
     "@fontsource-variable/geist-mono": "^5.0.1",
-    "@iconify-json/mdi": "^1.1.66",
+    "@iconify-json/lucide": "^1.1.66",
     "@iconify-json/simple-icons": "^1.2.18",
     "astro": "^5.1.2",
     "astro-icon": "^1.1.0",

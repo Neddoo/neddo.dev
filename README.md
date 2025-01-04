@@ -1,6 +1,6 @@
 # neddo.dev - My Personal Website
 
-This is a VERY basic personal little website. Don't expect the most advanced code or whatever. Threw it together rather quick.
+very cool
 
 ## 🧞 Commands
 
