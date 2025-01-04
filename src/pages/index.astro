@@ -1,47 +1,31 @@
 ---
 import Default from "../layouts/default.astro";
-import { Icon } from "astro-icon/components";
+import Socials from '../components/Socials.astro'
+import Tech from '../components/Tech.astro'
 ---
 
-<Default title="home">
-  <div
-    class="p-8 md:p-16 rounded-xl w-full md:w-[60%] drop-shadow-lg bg-neutral-900 border-neutral-800 border-2"
-  >
-    <div class="flex justify-between flex-col md:flex-row">
-      <div>
-        <h1
-          class="text-4xl md:text-5xl font-bold bg-gradient-to-l pb-2 from-green-300 to-white text-transparent bg-clip-text"
-        >
-          Hiya! I'm Sven
+<Default>
+  <div class="p-12 motion-opacity-in-0 motion-duration-[3s]">
+    <div class="flex flex-col lg:flex-row justify-between">
+      <div class="gap-3 grid">
+        <h1 class="font-bold text-5xl my-auto">
+          <span class="text-green-200">Hi!</span> I'm Sven
         </h1>
-        <p class="text-neutral-500 mt-2">Full-Stack Developer</p>
       </div>
-      <div class="my-auto space-x-2 flex mt-5 md:mt-0">
-        <a
-          href="https://github.com/Neddoo"
-          class="group p-2 border-2 border-neutral-800 rounded-xl hover:border-neutral-700 hover:bg-neutral-800 duration-200"
-          target="_blank"
-          ><Icon
-            class="w-8 h-8 text-neutral-400 group-hover:text-white duration-200"
-            name="mdi:github"
-          /></a
-        >
-        <a
-          href="https://x.com/ItsNeddo"
-          class="group p-2 border-2 border-neutral-800 rounded-xl hover:border-neutral-700 hover:bg-neutral-800 duration-200"
-          target="_blank"
-          ><Icon
-            class="w-8 h-8 text-neutral-400 group-hover:text-white duration-200"
-            name="mdi:twitter"
-          /></a
-        >
+      <div class="my-auto">
+        <div class="lg:space-x-2 flex mt-5 lg:mt-0 flex-col gap-3 lg:flex-row lg:gap-0">
+          <Socials />
+        </div>
       </div>
     </div>
-    <p class="mt-10">
-      I'm a Full-Stack Developer currently working full-time creating cool stuff
-      for some of the biggest audio brands.<br /><br />
-      I really enjoy creating awesome projects that look appealing and work great
-      on all platforms.
-    </p>
+    <hr class="border-neutral-800 my-12 border-2" />
+    <div class="gap-3 grid">
+      <p class="text-pretty text-lg text-neutral-400">I'm a full-stack developer working on websites for the most part. I'm currently working full-time managing the websites for the biggest audio brands (JBL, Harman/Kardon).<br /><br />I'm very passionate about new technologies and discovering new stuff. I also love OSS (legit who doesn't).</p>
+    </div>
+    <hr class="border-neutral-800 my-12 border-2" />
+    <div class="gap-3 grid">
+      <h2 class="text-3xl text-neutral-400 font-bold">Tech</h2>
+      <Tech />
+    </div>
   </div>
 </Default>
