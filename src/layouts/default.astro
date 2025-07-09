@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/geist-mono";
+import Analytics from '@vercel/analytics/astro'
 ---
 
 <html lang="en">
@@ -16,6 +17,7 @@ import "@fontsource-variable/geist-mono";
   </head>
   <body class="bg-black text-white max-w-7xl mx-auto">
     <slot />
+    <Analytics/>
   </body>
 </html>
 
